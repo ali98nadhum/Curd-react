@@ -1,0 +1,29 @@
+
+header
+{
+    height: 70px;
+    border-bottom: 1px solid #dddddd;
+    box-shadow: 0 2px 10px 0 #ddd;
+}
+
+header .content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+
+header .content h2 span
+{
+    color: rgb(236, 82, 16);
+}
+
+@media (max-width: 788px){
+    header .content h2
+    {
+        font-size: 18px;
+        padding-left: 30px;
+    }
+}
